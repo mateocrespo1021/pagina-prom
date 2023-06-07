@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./build/css/app.css" />
+    <title>SOFTPM : Desarrollo de Software Quito | Guayaquil | Cuenca</title>
+    <link
+      rel="shortcut icon"
+      href="/build/img/coding.png"
+      type="image/x-icon"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("6OL4zc1huquTHu_yL");
+    </script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__contenido">
+        <a class="header__logo" href="/">
+          SOFT<span class="header__span">PM</span>
+          <img class="header__img" src="/build/img/coding.png" alt="icono">
+        </a>
+        <nav class="header__nav">
+          <a class="header__servicios" href="#servicios">Servicios</a>
+          <a class="header__nosotros" href="#nosotros">¿Quiénes Somos?</a>
+          <a class="header__contacto" href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="intro__info">
+        <h1 class="intro__h1">
+          "Soluciones de software personalizadas para impulsar tu negocio"
+        </h1>
+        <p class="intro__p">
+          Somos expertos en desarrollo de software a medida, creando soluciones
+          personalizadas que se adaptan a las necesidades específicas de tu
+          negocio. Nuestro equipo de desarrolladores talentosos y apasionados
+          está listo para convertir tus ideas en software de calidad que impulse
+          tu crecimiento.<a href="#contacto">¡Contáctanos ahora!</a>
+        </p>
+        <div class="intro__enlaces">
+          <a class="intro__empieza" href="#servicios">Empezar</a>
+          <a class="intro__proyectos" href="#proyectos">Proyectos</a>
+        </div>
+      </div>
+      <div class="intro__img">
+        <picture>
+          <source srcset="./build/img/intro.avif" type="image/avif" />
+          <source srcset="./build/img/intro.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="./build/img/intro.jpg"
+            lazyalt="imagen"
+            width="500"
+            height="300"
+          />
+        </picture>
+      </div>
+    </section>
+
+    <main class="main">
+      <h2 class="main__heading">
+        ¿Quieres convertir tu negocio en un éxito? ¡Tenemos la solución!
+      </h2>
+      <section class="servicios" id="servicios">
+        <div class="servicio">
+          <div class="servicio__img">
+            <picture>
+              <source srcset="./build/img/web.avif" type="image/avif" />
+              <source srcset="./build/img/web.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./build/img/web.png"
+                lazyalt="imagen"
+                width="500"
+                height="300"
+              />
+            </picture>
+          </div>
+          <div class="servicio__info">
+            <h2 class="servicio__h2">Pagina Web</h2>
+            <p class="servicio__p">
+              Tener un sitio web es esencial para cualquier empresa o persona
+              que busque tener presencia en línea.
+            </p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="servicio__img">
+            <picture>
+              <source srcset="./build/img/tienda.avif" type="image/avif" />
+              <source srcset="./build/img/tienda.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./build/img/tienda.png"
+                lazyalt="imagen"
+                width="500"
+                height="300"
+              />
+            </picture>
+          </div>
+          <div class="servicio__info">
+            <h2 class="servicio__h2">Tienda Online</h2>
+            <p class="servicio__p">
+              Tener una tienda en línea es fundamental en la actualidad para
+              cualquier empresa que quiera vender productos en línea.
+            </p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="servicio__img">
+            <picture>
+              <source srcset="./build/img/cursos.avif" type="image/avif" />
+              <source srcset="./build/img/cursos.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./build/img/cursos.png"
+                lazyalt="imagen"
+                width="500"
+                height="300"
+              />
+            </picture>
+          </div>
+          <div class="servicio__info">
+            <h2 class="servicio__h2">Cursos online</h2>
+            <p class="servicio__p">
+              Ofrecer cursos en línea es una excelente manera de compartir
+              conocimientos y habilidades con una audiencia global.
+            </p>
+          </div>
+        </div>
+        <div class="servicio">
+          <div class="servicio__img">
+            <picture>
+              <source
+                srcset="./build/img/aplicaciones.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="./build/img/aplicaciones.webp"
+                type="image/webp"
+              />
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./build/img/aplicaciones.png"
+                lazyalt="imagen"
+                width="500"
+                height="300"
+              />
+            </picture>
+          </div>
+          <div class="servicio__info">
+            <h2 class="servicio__h2">Aplicaciones web</h2>
+            <p class="servicio__p">
+              Las aplicaciones web son una herramienta tecnológica que permite a
+              las empresas y organizaciones mejorar la interacción con sus
+              clientes, procesos internos y gestión de datos.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="estudio" id="nosotros">
+      <div class="estudio__img">
+        <picture>
+          <source srcset="./build/img/estudio.avif" type="image/avif" />
+          <source srcset="./build/img/estudio.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="./build/img/estudio.jpg"
+            lazyalt="imagen"
+            width="500"
+            height="300"
+          />
+        </picture>
+      </div>
+      <div class="estudio__info">
+        <h2 class="estudio__heading">¿Por qué elegirnos?</h2>
+        <p class="estudio__p">
+          Contamos con un equipo experimentado de desarrolladores que han
+          trabajado en diversos proyectos, brindando soluciones confiables y
+          eficientes.
+        </p>
+        <a href="#contacto" class="estudio__contacto"
+          >Recibir asesoría gratuita</a
+        >
+      </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+      <h3 class="proyectos__heading">Proyectos Recientes</h3>
+      <!-- Slider main container -->
+      <div class="slider swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="proyecto">
+              <a
+                href="https://mateocrespo1021.github.io/web-cafe/"
+                target="_blank"
+              >
+                <picture>
+                  <source
+                    srcset="./build/img/web-cafe.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./build/img/web-cafe.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="./build/img/web-cafe.png"
+                    lazyalt="imagen"
+                    width="500"
+                    height="300"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="proyecto">
+              <a
+                href="https://mateocrespo1021.github.io/audifonos/"
+                target="_blank"
+              >
+                <picture>
+                  <source
+                    srcset="./build/img/web-audi.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./build/img/web-audi.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="./build/img/web-audi.png"
+                    lazyalt="imagen"
+                    width="500"
+                    height="300"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="proyecto">
+              <a
+                href="https://mateocrespo1021.github.io/arquitectura/"
+                target="_blank"
+              >
+                <picture>
+                  <source srcset="./build/img/web-arq.avif" type="image/avif" />
+                  <source srcset="./build/img/web-arq.webp" type="image/webp" />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="./build/img/web-arq.png"
+                    lazyalt="imagen"
+                    width="500"
+                    height="300"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="proyecto">
+              <a
+                href="https://mateocrespo1021.github.io/delivery/"
+                target="_blank"
+              >
+                <picture>
+                  <source
+                    srcset="./build/img/delivery-web.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./build/img/delivery-web.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="./build/img/delivery-web.png"
+                    lazyalt="imagen"
+                    width="500"
+                    height="300"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="proyecto">
+              <a
+                href="https://mateocrespo1021.github.io/podcast/"
+                target="_blank"
+              >
+                <picture>
+                  <source
+                    srcset="./build/img/web-podcast.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./build/img/web-podcast.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="./build/img/web-podcast.png"
+                    lazyalt="imagen"
+                    width="500"
+                    height="300"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="proyecto">
+              <a
+                href="https://mateocrespo1021.github.io/airbn/"
+                target="_blank"
+              >
+                <picture>
+                  <source srcset="./build/img/web-air.avif" type="image/avif" />
+                  <source srcset="./build/img/web-air.webp" type="image/webp" />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="./build/img/web-air.png"
+                    lazyalt="imagen"
+                    width="500"
+                    height="300"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <div class="contacto__info">
+        <h3>¡Haz realidad tu proyecto hoy mismo!</h3>
+        <p>
+          Ofrecemos soluciones personalizadas y características avanzadas para
+          hacer que tu sitio web o aplicación destaque. Solicita una cotización
+          rápida y sin compromiso.
+          <span>¡Déjanos ayudarte a alcanzar el éxito en línea!</span>
+        </p>
+      </div>
+      <div class="contacto__form">
+        <div id="errores" class="contacto__errores"></div>
+        <div class="sk-cube-grid spinner" id="spinner">
+          <div class="sk-cube sk-cube1"></div>
+          <div class="sk-cube sk-cube2"></div>
+          <div class="sk-cube sk-cube3"></div>
+          <div class="sk-cube sk-cube4"></div>
+          <div class="sk-cube sk-cube5"></div>
+          <div class="sk-cube sk-cube6"></div>
+          <div class="sk-cube sk-cube7"></div>
+          <div class="sk-cube sk-cube8"></div>
+          <div class="sk-cube sk-cube9"></div>
+        </div>
+        
+        <form
+          method="post"
+          class="form"
+          id="form"
+          enctype="multipart/form-data"
+        >
+          <div class="field form__campo">
+            <label for="from_name">Nombre</label>
+            <input
+              name="from_name"
+              id="from_name"
+              type="text"
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="field form__campo">
+            <label for="email_id">Email</label>
+            <input
+              name="email_id"
+              id="email_id"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="field form__campo">
+            <label for="contact_number">WhatsApp</label>
+            <input
+              name="contact_number"
+              id="contact_number"
+              type="number"
+              pattern="[0-9]+"
+              placeholder="WhatsApp"
+            />
+          </div>
+          <div class="field form__campo">
+            <label for="message">¿Qué necesitas?</label>
+            <select name="message" id="message">
+              <option value="">-- Seleccione --</option>
+              <option value="Página web">Página web</option>
+              <option value="Tienda Online">Tienda Online</option>
+              <option value="Cursos Online">Cursos Online</option>
+              <option value="Aplicación Web">Aplicación Web</option>
+            </select>
+          </div>
+          <input
+            class="form__submit"
+            type="submit"
+            value="Agendar una reunión"
+            id="button"
+          />
+        </form>
+      </div>
+    </section>
+    <a class="icono-whats" href="https://wa.me/593983513154" target="_blank"
+      ><i class="fa-brands fa-whatsapp"></i
+    ></a>
+
+    <footer class="footer">
+      <div class="footer__contenedor">
+        <div class="footer__info">
+          <h3 class="footer__h3">Información</h3>
+          <div class="footer__div">
+            <i class="fa-solid fa-phone"></i>
+            <p>(+593) 0983513154</p>
+          </div>
+          <div class="footer__div">
+            <i class="fa-solid fa-envelope"></i>
+            <p>webworks@gmail.com</p>
+          </div>
+          <div class="footer__div">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Cuenca, Ecuador.</p>
+          </div>
+        </div>
+        <div class="footer__servicios">
+          <h3 class="footer__h3">Servicios</h3>
+          <p>Tiendas Online</p>
+          <p>Páginas Web</p>
+          <p>Mantenimiento Web</p>
+        </div>
+        <div class="footer__asesorias">
+          <h3 class="footer__h3">Lenguajes</h3>
+          <div class="footer__lenguajes">
+            <i class="fa-brands fa-php"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-java"></i>
+          </div>
+        </div>
+        <div class="footer__estudio">
+          <h3 class="footer__h3">Estudio de desarrollo de software</h3>
+          <a href="/" class="footer__logo"
+            >SOFT<span class="footer__span">PM</span></a
+          >
+        </div>
+      </div>
+      <p class="footer__copy">Copyright 2023 SOFTPM</p>
+    </footer>
+    <script src="/build/js/main.min.js" defer></script>
+  </body>
+</html>
